@@ -6,3 +6,4 @@ langchain-community
 python-dotenv
 pydantic
 faiss-cpu
+beautifulsoup4

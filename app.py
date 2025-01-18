@@ -39,7 +39,7 @@ Promtior was founded in 2023
 # Load and process documents
 def initialize_knowledge_base():
     # Load documents from Promtior website
-    loader = WebBaseLoader("https://www.promtior.com")
+    loader = WebBaseLoader("https://www.promtior.com", headers={"User-Agent": os.getenv("USER_AGENT")})
     web_docs = loader.load()
     
     # Create Document from manual context
