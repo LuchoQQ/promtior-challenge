@@ -90,7 +90,7 @@ chain = create_rag_chain()
 @app.post("/chat/invoke")
 async def chat(chat_input: ChatInput):
     response = chain.invoke({"input": chat_input.input})
-    return response
+    return {"response": response["answer"]}
 
 # Main execution
 if __name__ == "__main__":
