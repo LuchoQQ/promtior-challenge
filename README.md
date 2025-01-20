@@ -8,6 +8,10 @@ This chatbot serves as an intelligent assistant for Promtior, capable of answeri
 
 DEMO DEPLOY URL: https://promtior-challenge-production.up.railway.app/chat/invoke
 
+![promtior](https://github.com/user-attachments/assets/cc0ed923-770a-45e4-88fc-99b5034db32f)
+
+
+
 ### Key Features
 
 - RAG-based knowledge retrieval
